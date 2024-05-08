@@ -6,6 +6,7 @@
 // Created on: Sep 2020
 // This is the Phaser3 configurationfile
 
+
 //* Game scene */
   const config = {      
     type:Phaser.AUTO,
@@ -18,13 +19,15 @@
       }
     },
     // set background color
-    backgroundcolor: 0x5f6e7a,
+    backgroundcolor: 0x6B7876,
      scale: { 
        mode: Phaser.Scale.FIT,
       // we place it in the middle of the page.
-      autoCenter: Phaser.Scale.CENTER_BOTH
+      autoCenter: Phaser.Scale.CENTER_BOTH,
   }
 }
 
 const game = new Phaser.Game(config)
 console.log(game)
+console.log("Testing game scene")
+
