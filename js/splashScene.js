@@ -1,4 +1,5 @@
 /* global Phaser */
+
 // Copyright (c) 2020 Mr Coxall All rights reserved
 //
 // Created by: Mr Coxall
@@ -37,8 +38,7 @@ class SplashScene extends Phaser.Scene {
     this.load.image("splashSceneBackground", "./assets/splashSceneImage.png")
   }
 
-
-  /**
+ /**
  * Can be defined on your own Scenes.
  * Use it to create your game objects.
  * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
