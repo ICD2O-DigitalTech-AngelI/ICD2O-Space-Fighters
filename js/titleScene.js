@@ -15,7 +15,7 @@ class TitleScene extends Phaser.Scene {
       this.titleSceneTextStyle = {font: "200px Times",fill: "#fde4b9" ,align: "center"}
  }
 
-  init(data) { 
+  init (data) { 
     this.cameras.main.setBackgroundColor("#3d3d45")
   }
 
@@ -32,7 +32,7 @@ class TitleScene extends Phaser.Scene {
     this.titleSceneText = this.add.text(1920 / 2, 1080 / 2, "Space Fighters", this.titleSceneTextStyle).setOrigin(0.5)
   }
   
- update(time, delta) {
+ update (time, delta) {
 if (time > 6000) { 
   this.scene.switch("menuScene")
 }

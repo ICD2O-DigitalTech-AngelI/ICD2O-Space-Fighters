@@ -14,7 +14,7 @@ class MenuScene extends Phaser.Scene {
    this.startButton = null
  }
   
-  init(data) { 
+  init (data) { 
     this.cameras.main.setBackgroundColor("#3d3d45")
   }
 

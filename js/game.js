@@ -17,7 +17,7 @@ const TitleScene = new TitleScene()
 const MenuScene = new MenuScene()
 const GameScene = new GameScene()
 
-/**
+//* Game scene */ 
 const config = {      
     type:Phaser.AUTO,
   width:1920,
