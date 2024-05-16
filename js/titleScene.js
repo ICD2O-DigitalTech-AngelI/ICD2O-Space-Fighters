@@ -21,7 +21,7 @@ class TitleScene extends Phaser.Scene {
 
   preload() { 
     console.log("Title Scene")
-    this.load.image("titleSceneBackground", "/.assets/titleSceneImage.png")
+    this.load.image("titleSceneBackground", "./assets/titleSceneImage.jpg")
   }
 
   create(data) {
@@ -33,12 +33,12 @@ class TitleScene extends Phaser.Scene {
   }
   
  update (time, delta) {
-if (time > 6000) { 
-  this.scene.switch("menuScene")
-}
+   if (time > 6000) { 
+     this.scene.switch("menuScene")
+   }
  }
 }
 
-  export default TitleScene
+export default TitleScene
 
  
